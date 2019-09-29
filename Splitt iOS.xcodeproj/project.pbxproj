@@ -15,6 +15,7 @@
 		1A34652F23249B9B00AC58A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A34652D23249B9B00AC58A3 /* LaunchScreen.storyboard */; };
 		1A34653A23249B9B00AC58A3 /* Splitt_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A34653923249B9B00AC58A3 /* Splitt_iOSTests.swift */; };
 		1A34654523249B9B00AC58A3 /* Splitt_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A34654423249B9B00AC58A3 /* Splitt_iOSUITests.swift */; };
+		1A3465552336D39400AC58A3 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3465542336D39400AC58A3 /* KeyboardResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A34654023249B9B00AC58A3 /* Splitt iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Splitt iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A34654423249B9B00AC58A3 /* Splitt_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splitt_iOSUITests.swift; sourceTree = "<group>"; };
 		1A34654623249B9B00AC58A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3465542336D39400AC58A3 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1A34652223249B9900AC58A3 /* AppDelegate.swift */,
 				1A34652423249B9900AC58A3 /* SceneDelegate.swift */,
 				1A34652623249B9900AC58A3 /* ContentView.swift */,
+				1A3465542336D39400AC58A3 /* KeyboardResponder.swift */,
 				1A34652823249B9B00AC58A3 /* Assets.xcassets */,
 				1A34652D23249B9B00AC58A3 /* LaunchScreen.storyboard */,
 				1A34653023249B9B00AC58A3 /* Info.plist */,
@@ -269,6 +272,7 @@
 			files = (
 				1A34652323249B9900AC58A3 /* AppDelegate.swift in Sources */,
 				1A34652523249B9900AC58A3 /* SceneDelegate.swift in Sources */,
+				1A3465552336D39400AC58A3 /* KeyboardResponder.swift in Sources */,
 				1A34652723249B9900AC58A3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
