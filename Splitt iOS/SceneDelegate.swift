@@ -21,17 +21,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
         let history = [
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
-            HistoryElement(time: "5 minutes ago", who: "James", action: "reconciled 30 splits"),
+            HistoryElement(),
+            HistoryElement(),
+            HistoryElement(),
+            HistoryElement(),
+            HistoryElement(),
+            HistoryElement(),
+            HistoryElement(),
+            HistoryElement(),
+            HistoryElement(),
         ]
         let contentView = ContentView(historyElements: history)
+//        let contentView = TestView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

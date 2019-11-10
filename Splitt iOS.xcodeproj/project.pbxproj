@@ -16,6 +16,13 @@
 		1A34653A23249B9B00AC58A3 /* Splitt_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A34653923249B9B00AC58A3 /* Splitt_iOSTests.swift */; };
 		1A34654523249B9B00AC58A3 /* Splitt_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A34654423249B9B00AC58A3 /* Splitt_iOSUITests.swift */; };
 		1A3465552336D39400AC58A3 /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3465542336D39400AC58A3 /* KeyboardResponder.swift */; };
+		1AD150112373CF0000009985 /* HistoryElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD150102373CF0000009985 /* HistoryElement.swift */; };
+		1AD150132373CF2B00009985 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD150122373CF2B00009985 /* HistoryView.swift */; };
+		1AD150152373CF4100009985 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD150142373CF4100009985 /* BlurView.swift */; };
+		1AD150172373CF5800009985 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD150162373CF5800009985 /* CreateView.swift */; };
+		1AD150192373CF6700009985 /* NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD150182373CF6700009985 /* NavigationHeader.swift */; };
+		1AD1501B2373CF7700009985 /* CreateViewDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1501A2373CF7700009985 /* CreateViewDatePicker.swift */; };
+		1AD1501D237524E300009985 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1501C237524E200009985 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		1A34654423249B9B00AC58A3 /* Splitt_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splitt_iOSUITests.swift; sourceTree = "<group>"; };
 		1A34654623249B9B00AC58A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A3465542336D39400AC58A3 /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		1AD150102373CF0000009985 /* HistoryElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryElement.swift; sourceTree = "<group>"; };
+		1AD150122373CF2B00009985 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		1AD150142373CF4100009985 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		1AD150162373CF5800009985 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		1AD150182373CF6700009985 /* NavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeader.swift; sourceTree = "<group>"; };
+		1AD1501A2373CF7700009985 /* CreateViewDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewDatePicker.swift; sourceTree = "<group>"; };
+		1AD1501C237524E200009985 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +118,18 @@
 				1A34652223249B9900AC58A3 /* AppDelegate.swift */,
 				1A34652423249B9900AC58A3 /* SceneDelegate.swift */,
 				1A34652623249B9900AC58A3 /* ContentView.swift */,
+				1AD1501A2373CF7700009985 /* CreateViewDatePicker.swift */,
+				1AD150182373CF6700009985 /* NavigationHeader.swift */,
+				1AD150162373CF5800009985 /* CreateView.swift */,
+				1AD150142373CF4100009985 /* BlurView.swift */,
 				1A3465542336D39400AC58A3 /* KeyboardResponder.swift */,
 				1A34652823249B9B00AC58A3 /* Assets.xcassets */,
 				1A34652D23249B9B00AC58A3 /* LaunchScreen.storyboard */,
 				1A34653023249B9B00AC58A3 /* Info.plist */,
 				1A34652A23249B9B00AC58A3 /* Preview Content */,
+				1AD150102373CF0000009985 /* HistoryElement.swift */,
+				1AD150122373CF2B00009985 /* HistoryView.swift */,
+				1AD1501C237524E200009985 /* TestView.swift */,
 			);
 			path = "Splitt iOS";
 			sourceTree = "<group>";
@@ -271,8 +292,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A34652323249B9900AC58A3 /* AppDelegate.swift in Sources */,
+				1AD150152373CF4100009985 /* BlurView.swift in Sources */,
+				1AD1501D237524E300009985 /* TestView.swift in Sources */,
+				1AD150172373CF5800009985 /* CreateView.swift in Sources */,
+				1AD150132373CF2B00009985 /* HistoryView.swift in Sources */,
+				1AD1501B2373CF7700009985 /* CreateViewDatePicker.swift in Sources */,
 				1A34652523249B9900AC58A3 /* SceneDelegate.swift in Sources */,
+				1AD150192373CF6700009985 /* NavigationHeader.swift in Sources */,
 				1A3465552336D39400AC58A3 /* KeyboardResponder.swift in Sources */,
+				1AD150112373CF0000009985 /* HistoryElement.swift in Sources */,
 				1A34652723249B9900AC58A3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
