@@ -133,7 +133,7 @@ struct CreateView: View {
 
                 VStack(spacing: 18.0) {
                     Button(action: {
-                        print("230")
+                        print("Create Split")
                     }) {
                         HStack {
                             Spacer()
@@ -147,7 +147,7 @@ struct CreateView: View {
                     }
 
                     Button(action: {
-                        print("asdf")
+                        print("Create and Add Another")
                     }) {
                         HStack {
                             Spacer()

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A340DC223789581004ACA89 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A340DC123789581004ACA89 /* APIClient.swift */; };
+		1A340DC42378BCE7004ACA89 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A340DC32378BCE7004ACA89 /* Networker.swift */; };
+		1A340DC62378BF00004ACA89 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A340DC52378BF00004ACA89 /* KeychainWrapper.swift */; };
+		1A340DC82378BF2F004ACA89 /* KeychainWrapperAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A340DC72378BF2F004ACA89 /* KeychainWrapperAccessibility.swift */; };
+		1A340DCA237A77A6004ACA89 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A340DC9237A77A6004ACA89 /* DataStore.swift */; };
+		1A340DCC237A8380004ACA89 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A340DCB237A8380004ACA89 /* User.swift */; };
+		1A340DCE237BCDA4004ACA89 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A340DCD237BCDA4004ACA89 /* Group.swift */; };
 		1A34652323249B9900AC58A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A34652223249B9900AC58A3 /* AppDelegate.swift */; };
 		1A34652523249B9900AC58A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A34652423249B9900AC58A3 /* SceneDelegate.swift */; };
 		1A34652723249B9900AC58A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A34652623249B9900AC58A3 /* ContentView.swift */; };
@@ -43,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A340DC123789581004ACA89 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1A340DC32378BCE7004ACA89 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		1A340DC52378BF00004ACA89 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		1A340DC72378BF2F004ACA89 /* KeychainWrapperAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapperAccessibility.swift; sourceTree = "<group>"; };
+		1A340DC9237A77A6004ACA89 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		1A340DCB237A8380004ACA89 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1A340DCD237BCDA4004ACA89 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		1A34651F23249B9900AC58A3 /* Splitt iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Splitt iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A34652223249B9900AC58A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A34652423249B9900AC58A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +144,13 @@
 				1AD150102373CF0000009985 /* HistoryElement.swift */,
 				1AD150122373CF2B00009985 /* HistoryView.swift */,
 				1AD1501C237524E200009985 /* TestView.swift */,
+				1A340DC123789581004ACA89 /* APIClient.swift */,
+				1A340DC32378BCE7004ACA89 /* Networker.swift */,
+				1A340DCB237A8380004ACA89 /* User.swift */,
+				1A340DCD237BCDA4004ACA89 /* Group.swift */,
+				1A340DC52378BF00004ACA89 /* KeychainWrapper.swift */,
+				1A340DC9237A77A6004ACA89 /* DataStore.swift */,
+				1A340DC72378BF2F004ACA89 /* KeychainWrapperAccessibility.swift */,
 			);
 			path = "Splitt iOS";
 			sourceTree = "<group>";
@@ -294,14 +315,21 @@
 				1A34652323249B9900AC58A3 /* AppDelegate.swift in Sources */,
 				1AD150152373CF4100009985 /* BlurView.swift in Sources */,
 				1AD1501D237524E300009985 /* TestView.swift in Sources */,
+				1A340DC62378BF00004ACA89 /* KeychainWrapper.swift in Sources */,
+				1A340DC82378BF2F004ACA89 /* KeychainWrapperAccessibility.swift in Sources */,
+				1A340DCA237A77A6004ACA89 /* DataStore.swift in Sources */,
 				1AD150172373CF5800009985 /* CreateView.swift in Sources */,
 				1AD150132373CF2B00009985 /* HistoryView.swift in Sources */,
+				1A340DCE237BCDA4004ACA89 /* Group.swift in Sources */,
 				1AD1501B2373CF7700009985 /* CreateViewDatePicker.swift in Sources */,
 				1A34652523249B9900AC58A3 /* SceneDelegate.swift in Sources */,
 				1AD150192373CF6700009985 /* NavigationHeader.swift in Sources */,
 				1A3465552336D39400AC58A3 /* KeyboardResponder.swift in Sources */,
 				1AD150112373CF0000009985 /* HistoryElement.swift in Sources */,
 				1A34652723249B9900AC58A3 /* ContentView.swift in Sources */,
+				1A340DC223789581004ACA89 /* APIClient.swift in Sources */,
+				1A340DCC237A8380004ACA89 /* User.swift in Sources */,
+				1A340DC42378BCE7004ACA89 /* Networker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

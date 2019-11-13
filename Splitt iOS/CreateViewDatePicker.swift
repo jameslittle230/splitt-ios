@@ -35,13 +35,9 @@ struct CreateViewDatePicker: View {
 
 struct CreateViewDatePicker_Previews: PreviewProvider {
     static var previews: some View {
-        var date = Date() {
-            didSet {
-                print("aaaa")
-            }
-        }
+        var date = Date()
         return CreateViewDatePicker(
-            date: Binding<Date>(get: {return date}, set: {d in date = d; print(d)}),
+            date: Binding<Date>(get: {return date}, set: {d in date = d}),
             datePickerActive: Binding<Bool>(get: { return true }, set: {_ in})
         )
     }

@@ -41,6 +41,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.window = window
             window.makeKeyAndVisible()
         }
+        
+        DataStore.shared.getLoginResponse()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
